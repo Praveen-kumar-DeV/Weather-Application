@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #00ffff, #310080);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#name {
+  color: #ffffff;
+}
+#box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+}
+input {
+  width: 300px;
+  height: 15px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+button {
+  width: fit-content;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #fd2020;
+  border-radius: 3px;
+  background-color: #fd2020;
+  color: #ccc;
+  font-size: 14px;
+  font-weight: 600;
+}
+button:hover {
+  background-color: #d10000;
+}
+input:focus {
+  border-color: #000000; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add shadow on focus */
+}
+#weather-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+span {
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
