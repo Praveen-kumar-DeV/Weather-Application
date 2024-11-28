@@ -52,7 +52,7 @@ To run this application, you need:
 This project uses the OpenWeatherMap API to fetch weather data. To use the app:
 
 1.  Generate your own API key by signing up at the OpenWeatherMap API website.
-2.  `` javascript const apiUrl = \`http://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric\`;  ``
+2.  `` javascript const apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric\`;  ``
 3.  javascriptCopy codeconst apiKey = "your-api-key-here";Example of an API key: 34e80a02ecae410460d37860ded6e2da. **Do not use this example key; generate your own from the above link.**
 
 ## Usage
