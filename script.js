@@ -49,5 +49,5 @@ function displayWeather(data) {
 // Display Error Message
 function displayError(message) {
   let errorElement = document.getElementById("error");
-  errorElement.textContent = `Error: ${message}`;
+  errorElement.innerHTML = `Error: ${message}`;
 }
