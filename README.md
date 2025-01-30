@@ -14,6 +14,9 @@ A simple web-based weather application that allows users to fetch current weathe
 ![Weather App Screenshot](/ScreenShots/Screenshot-1.png)
 ![Weather App Screenshot](/ScreenShots/Screenshot-2.png)
 
+## Live Link
+[Project Link](https://679b407df0f7d49c206f8799--frabjous-platypus-7668e8.netlify.app/)
+
 ## Getting Started
 
 ### Prerequisites
